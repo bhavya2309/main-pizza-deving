@@ -1,0 +1,18 @@
+.tag {
+  position: absolute;
+  top: 9rem;
+  left: 3rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,48 @@
+/* styles/userinfo.css */
+
+.userinfo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.userinfo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.userinfo-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.userinfo-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.userinfo-email,
+.userinfo-total {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}

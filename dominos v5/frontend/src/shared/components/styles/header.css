@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  background-color: rgb(0, 120, 189);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 1rem;
+  }
+}
+
+.signup-btn {
+  margin-right: 1rem;
+  background-color: #ffffff;
+  color: rgb(0, 120, 189);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #f2f2f2;
+  animation: pulse 0.5s ease-in-out;
+}
+
+.signup-btn:active {
+  transform: scale(0.9);
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

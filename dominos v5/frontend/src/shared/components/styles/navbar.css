@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  padding: 2px 0;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.navbar-item {
+  font-family: "Arial", sans-serif;
+}
+
+.navbar-link {
+  color: #333333b2;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #007bff;
+}
+
+.navbar-link.active {
+  color: #007bff;
+}
